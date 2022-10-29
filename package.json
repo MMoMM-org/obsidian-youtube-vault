@@ -1,0 +1,87 @@
+{
+	"author": "Marcus Breiden <marcus@mmomm.org",
+	"repository": "https://github.com/MMoMM-org/obsidian-youtube-vault.git",
+	"dependencies": {
+	},
+	"description": "Vaults for my Youtube Videos",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"builtin-modules": "3.3.0",
+		"esbuild": "0.14.47",
+		"esbuild-plugin-copy": "1.3.0",
+		"obsidian": "latest",
+		"process": "^0.11.10",
+		"tslib": "2.4.0",
+		"typescript": "4.7.4",
+		"semantic-release": "19.0.5",
+		"@semantic-release/commit-analyzer": "9.0.2",
+		"@semantic-release/release-notes-generator": "10.0.3",
+		"@semantic-release/changelog": "6.0.1",
+		"@semantic-release/git": "10.0.1",
+		"@semantic-release/exec": "6.0.3"
+	},
+	"keywords": [],
+	"license": "GPLv3",
+	"main": "Dummy.ts",
+	"name": "obsidian-youtube-vault",
+	"scripts": {
+		"dev": "node esbuild.config.mjs dev",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"version": "1.0.0",
+	"release": {
+		"private": false,
+		"preset": "angular",
+		"branches": [
+			"main"
+		],
+		"tagFormat": "${version}",
+		"plugins": [
+			"@semantic-release/commit-analyzer",
+			"@semantic-release/release-notes-generator",
+			[
+				"@semantic-release/changelog",
+				{
+					"changelogFile": "Changelog.md"
+				}
+			],
+			[
+				"@semantic-release/npm",
+				{
+					"npmPublish": false
+				}
+			],
+			[
+				"@semantic-release/exec",
+				{
+					"publishCmd": "./createZip.sh obsidian-youtube-vault"
+				}
+			],
+			[
+				"@semantic-release/git",
+				{
+					"assets": [
+						"versions.json",
+						"Changelog.md",
+						"manifest.json",
+						"package.json"
+					],
+					"message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+				}
+			],
+			[
+				"@semantic-release/github",
+				{
+					"assets": [
+						{
+							"path": "./obsidian-youtube-vault.zip"
+						}
+					]
+				}
+			]
+		]
+	}
+}
