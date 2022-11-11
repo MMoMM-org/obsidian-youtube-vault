@@ -1,8 +1,7 @@
 {
 	"author": "Marcus Breiden <marcus@mmomm.org",
 	"repository": "https://github.com/MMoMM-org/obsidian-youtube-vault.git",
-	"dependencies": {
-	},
+	"dependencies": {},
 	"description": "Vaults for my Youtube Videos",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
@@ -31,7 +30,7 @@
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"release": {
 		"private": false,
 		"preset": "angular",
