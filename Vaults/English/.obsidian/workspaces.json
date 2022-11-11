@@ -1,0 +1,220 @@
+{
+  "workspaces": {
+    "Comparison": {
+      "main": {
+        "id": "a22518e0b33e6ecd",
+        "type": "split",
+        "children": [
+          {
+            "id": "e2ff8f497b8f9edc",
+            "type": "split",
+            "children": [
+              {
+                "id": "7156def467fd7c3c",
+                "type": "tabs",
+                "dimension": 79.74468085106383,
+                "children": [
+                  {
+                    "id": "7254be75c3f33dde",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "700 Playground/Embedded.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "e1d1b7611146ccc1",
+                "type": "tabs",
+                "dimension": 20.25531914893617,
+                "children": [
+                  {
+                    "id": "3bac65fdc3923916",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "200 Journaling/201 Daily/2022-10-30.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "50eca30e60edcb8c",
+            "type": "split",
+            "children": [
+              {
+                "id": "7e8b1d09b1b3a67b",
+                "type": "tabs",
+                "dimension": 80.17021276595744,
+                "children": [
+                  {
+                    "id": "8de0071879839626",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "700 Playground/Dynbedded.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "266c1dd347e3c4ae",
+                "type": "tabs",
+                "dimension": 19.829787234042552,
+                "children": [
+                  {
+                    "id": "e92bb9cef80aab9b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "200 Journaling/201 Daily/2022-10-30.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "7f74345939f00aec",
+        "type": "split",
+        "children": [
+          {
+            "id": "6123e505b2f93a68",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b6f087cfdcc9b10f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "06b994d076527ade",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "4695e12202ca7e0d",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "right": {
+        "id": "74882134aaf0a495",
+        "type": "split",
+        "children": [
+          {
+            "id": "7d6455d7edbb7949",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4aefa207717dfb17",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "700 Playground/Dynbedded.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "120bde3bc7358776",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "700 Playground/Dynbedded.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "f542e87ac55ed9f4",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "f60ef0a757fed1af",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "700 Playground/Dynbedded.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "ribbon": {
+        "mostRecentAction": ""
+      },
+      "active": "8de0071879839626"
+    }
+  },
+  "active": "Comparison"
+}

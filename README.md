@@ -10,6 +10,8 @@ and here is the link to my [english blog](https://www.mmomm.org/en)
 
 Please take a look at the [Changelog](Changelog.md) which should tell you what you can expect.
 
+The codes in form of XX-YY connect the videos with the vault and my blog. You can search for them on youtube and on my blog.
+
 The content of the vault is constantly growing, but if you want to roll back some episodes you can just download some old releases.
 Just go to releases on the right side of the project and choose any version you like to download the obsidian-youtube-vaults zip file.
 

@@ -9,6 +9,8 @@ und hier ist der Link zu meinem [deutschen Blog](https://www.mmomm.org)
 
 Schaut euch bitte das [Changelog](Changelog.md) an welches euch zeigt was euch hier erwartet.
 
+Die Codes in Form von XX-YY verknüpfen übrigens die Videos mit dem Vault und meinem Blog. Auf Youtube und in meinem Blog könnt ihr einfach danach suchen.
+
 Das Material im Vault wächst kontinuierlich, aber falls ihr mal ein paar Episoden zurück gehen wollt könnt ihr einfach die älteren Releases downloaden.
 Geht einfach zu Releases auf der rechten Seite des Projektes und sucht euch die Version aus die ihr her runter laden wollt. Nehmt davon dann das entsprechende obsidian-youtube-vaults zip file.
 

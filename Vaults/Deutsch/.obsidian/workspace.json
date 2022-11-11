@@ -4,18 +4,96 @@
     "type": "split",
     "children": [
       {
-        "id": "b1f0b85e25bac914",
-        "type": "tabs",
+        "id": "9811f7befd1a8a6e",
+        "type": "split",
+        "dimension": 42.857142857142854,
         "children": [
           {
-            "id": "4d305cb456784099",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
+            "id": "14ddec5168b51324",
+            "type": "tabs",
+            "dimension": 48.3982683982684,
+            "children": [
+              {
+                "id": "cb92d5a70a818804",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "900 Support/951 Dataview Scripts/Inlinks.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "c2aa87ede8ac2ad1",
+            "type": "tabs",
+            "dimension": 51.6017316017316,
+            "children": [
+              {
+                "id": "0266d48243efc9f7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "200 Journaling/201 Täglich/2022-10-29.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "9b23c9491f1f66e4",
+        "type": "split",
+        "dimension": 57.14285714285714,
+        "children": [
+          {
+            "id": "8275ef725f378335",
+            "type": "tabs",
+            "dimension": 48.57142857142857,
+            "children": [
+              {
+                "id": "b6be8a685e4e452a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "700 Spielplatz/Dynbedded.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "2eed4d65f047baef",
+            "type": "tabs",
+            "dimension": 51.42857142857142,
+            "children": [
+              {
+                "id": "66fa69a932c323d9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "200 Journaling/201 Täglich/2022-10-30.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -81,6 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "900 Support/951 Dataview Scripts/Inlinks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "900 Support/951 Dataview Scripts/Inlinks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +198,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "900 Support/951 Dataview Scripts/Inlinks.md"
+              }
             }
           }
         ]
@@ -131,6 +213,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4d305cb456784099",
-  "lastOpenFiles": []
+  "active": "cb92d5a70a818804",
+  "lastOpenFiles": [
+    "900 Support/940 Templates/Default Buttons.md",
+    "700 Spielplatz/Embedded.md",
+    "700 Spielplatz/Dynbedded.md",
+    "200 Journaling/201 Täglich/2022-10-29.md",
+    "300 Planner/DP-2022-10-30.md",
+    "200 Journaling/201 Täglich/2022-10-30.md",
+    "200 Journaling/201 Täglich/2022-10-23.md",
+    "900 Support/951 Dataview Scripts/Tasks.md",
+    "900 Support/951 Dataview Scripts/Inlinks.md",
+    "900 Support/951 Dataview Scripts/All Dataview Scripts.md"
+  ]
 }

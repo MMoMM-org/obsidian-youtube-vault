@@ -4,18 +4,94 @@
     "type": "split",
     "children": [
       {
-        "id": "7f8ecaca2a972f23",
-        "type": "tabs",
+        "id": "e2ff8f497b8f9edc",
+        "type": "split",
         "children": [
           {
-            "id": "d3dd398a65649a16",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
+            "id": "7156def467fd7c3c",
+            "type": "tabs",
+            "dimension": 53.02127659574469,
+            "children": [
+              {
+                "id": "7254be75c3f33dde",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "900 Support/951 Dataview Scripts/Inlinks.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "e1d1b7611146ccc1",
+            "type": "tabs",
+            "dimension": 46.97872340425531,
+            "children": [
+              {
+                "id": "3bac65fdc3923916",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "200 Journaling/201 Daily/2022-10-29.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "50eca30e60edcb8c",
+        "type": "split",
+        "children": [
+          {
+            "id": "7e8b1d09b1b3a67b",
+            "type": "tabs",
+            "dimension": 53.191489361702125,
+            "children": [
+              {
+                "id": "8de0071879839626",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "700 Playground/Dynbedded.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "266c1dd347e3c4ae",
+            "type": "tabs",
+            "dimension": 46.808510638297875,
+            "children": [
+              {
+                "id": "e92bb9cef80aab9b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "200 Journaling/201 Daily/2022-10-30.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -81,6 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "900 Support/951 Dataview Scripts/Inlinks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "900 Support/951 Dataview Scripts/Inlinks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +196,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "900 Support/951 Dataview Scripts/Inlinks.md"
+              }
             }
           }
         ]
@@ -131,6 +211,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "d3dd398a65649a16",
-  "lastOpenFiles": []
+  "active": "7254be75c3f33dde",
+  "lastOpenFiles": [
+    "900 Support/940 Templates/Default Buttons.md",
+    "700 Playground/Embedded.md",
+    "700 Playground/Dynbedded.md",
+    "200 Journaling/201 Daily/2022-10-29.md",
+    "200 Journaling/201 Daily/2022-10-30.md",
+    "300 Planner/DP-2022-10-30.md",
+    "900 Support/951 Dataview Scripts/Inlinks.md",
+    "900 Support/951 Dataview Scripts/Tasks.md",
+    "900 Support/951 Dataview Scripts/All Dataview Scripts.md",
+    "200 Journaling/201 Daily/2022-10-23.md"
+  ]
 }

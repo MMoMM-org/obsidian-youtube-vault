@@ -1,0 +1,8 @@
+/* Sets all the dynbedded text color to blue! */
+.dynbedded {
+    color: blue;
+}
+/* Sets all the error text color to red! */
+.dynbedded-error {
+    color: red;
+}
