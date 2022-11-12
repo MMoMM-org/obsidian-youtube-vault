@@ -3,5 +3,10 @@
   "buttons",
   "obsidian-dynbedded",
   "dataview",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "obsidian-emoji-toolbar",
+  "obsidian-icon-shortcodes",
+  "obsidian-dropbox-backups",
+  "obsidian-frontmatter-tag-suggest",
+  "editing-toolbar"
 ]

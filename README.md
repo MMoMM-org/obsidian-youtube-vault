@@ -1,6 +1,7 @@
 # Obsidian Youtube Vaults
 
 Welcome to my Youtube Vaults.
+[Hier ist eine Deutsche Version.](Liesmich.md)
 
 If you stumbled upon this project via GitHub, here is the link to my [English Youtube Playlist](https://www.youtube.com/playlist?list=PL6VAMWpvpmv4jdk0iKPYMX2Qm6smbVIJW)
 and here is the link to my [english blog](https://www.mmomm.org/en)
