@@ -6,7 +6,10 @@
   "obsidian-tasks-plugin",
   "obsidian-emoji-toolbar",
   "obsidian-icon-shortcodes",
-  "obsidian-dropbox-backups",
   "obsidian-frontmatter-tag-suggest",
-  "editing-toolbar"
+  "editing-toolbar",
+  "obsidian-better-codeblock",
+  "obsidian-file-link",
+  "better-inline-fields",
+  "better-word-count"
 ]

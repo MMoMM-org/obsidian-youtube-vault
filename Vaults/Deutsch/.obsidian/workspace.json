@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca29e47b8479f125",
+            "id": "2068e4095aa957ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "700 Spielplatz/40-02 Helfer beim Schreiben + Backup.md",
+                "file": "700 Spielplatz/40-03 Die in der alles besser ist.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "700 Spielplatz/40-02 Helfer beim Schreiben + Backup.md",
+                "file": "700 Spielplatz/40-03 Die in der alles besser ist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "700 Spielplatz/40-02 Helfer beim Schreiben + Backup.md",
+                "file": "700 Spielplatz/40-03 Die in der alles besser ist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "700 Spielplatz/40-02 Helfer beim Schreiben + Backup.md"
+                "file": "700 Spielplatz/40-03 Die in der alles besser ist.md"
               }
             }
           }
@@ -139,17 +139,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "ca29e47b8479f125",
+  "active": "2068e4095aa957ba",
   "lastOpenFiles": [
+    "600 Ressourcen/604 Links/d.md",
+    "700 Spielplatz/40-03 Die in der alles besser ist.md",
+    "700 Spielplatz/40-02 Helfer beim Schreiben + Backup.md",
     "900 Support/951 Dataview Scripts/Inlinks.md",
     "900 Support/940 Templates/Default Buttons.md",
     "700 Spielplatz/Embedded.md",
     "700 Spielplatz/Dynbedded.md",
     "200 Journaling/201 Täglich/2022-10-29.md",
     "300 Planner/DP-2022-10-30.md",
-    "200 Journaling/201 Täglich/2022-10-30.md",
-    "200 Journaling/201 Täglich/2022-10-23.md",
-    "900 Support/951 Dataview Scripts/Tasks.md",
-    "900 Support/951 Dataview Scripts/All Dataview Scripts.md"
+    "200 Journaling/201 Täglich/2022-10-30.md"
   ]
 }
