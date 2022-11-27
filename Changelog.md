@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/MMoMM-org/obsidian-youtube-vault/compare/1.2.0...1.3.0) (2022-11-27)
+
+
+### Features
+
+* 40-03 The one where everything is better ([d81dfb5](https://github.com/MMoMM-org/obsidian-youtube-vault/commit/d81dfb516d1bbebdcb2c0243aa886ea8bc5cc62c))
+
 # [1.2.0](https://github.com/MMoMM-org/obsidian-youtube-vault/compare/1.1.0...1.2.0) (2022-11-12)
 
 
