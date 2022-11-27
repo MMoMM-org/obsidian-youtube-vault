@@ -1,0 +1,13 @@
+{
+  "autocomplete": [
+    {
+      "field": "Spielplatz",
+      "folder": "700 Spielplatz"
+    },
+    {
+      "field": "Links",
+      "folder": "600 Ressourcen/604 Links"
+    }
+  ],
+  "regexpTrigger": "/"
+}

@@ -1,0 +1,9 @@
+{
+  "autocomplete": [
+    {
+      "field": "Playground",
+      "folder": "700 Playground"
+    }
+  ],
+  "regexpTrigger": "/"
+}
