@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/MMoMM-org/obsidian-youtube-vault/compare/1.4.0...1.5.0) (2022-12-14)
+
+
+### Features
+
+* 40-04 Todoist Sync ([bccaa4b](https://github.com/MMoMM-org/obsidian-youtube-vault/commit/bccaa4b1305bc85b609ccc297eae7fee9b105736))
+
 # [1.4.0](https://github.com/MMoMM-org/obsidian-youtube-vault/compare/1.3.0...1.4.0) (2022-11-27)
 
 
