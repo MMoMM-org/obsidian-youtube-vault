@@ -2270,15 +2270,19 @@ var BetterInlineFieldsSettingTab = class extends import_obsidian3.PluginSettingT
       });
     });
     this.plugin.settings.autocomplete.forEach((autocomplete, index) => {
-      const setting = new import_obsidian3.Setting(containerEl).addText((text) => text.setPlaceholder("Inline field name").setValue(autocomplete.field).onChange((newValue) => {
-        this.plugin.settings.autocomplete[index].field = newValue;
-        this.plugin.saveSettings();
-      })).addSearch((search) => {
+      const setting = new import_obsidian3.Setting(containerEl).addText((text) => {
+        text.setPlaceholder("Inline field name").setValue(autocomplete.field).onChange((newValue) => {
+          this.plugin.settings.autocomplete[index].field = newValue;
+          this.plugin.saveSettings();
+        });
+        text.inputEl.addClass("better_inline_fields_setting");
+      }).addSearch((search) => {
         new FolderSuggest(this.app, search.inputEl);
         search.setPlaceholder("Folder").setValue(autocomplete.folder).onChange((newValue) => {
           this.plugin.settings.autocomplete[index].folder = newValue;
           this.plugin.saveSettings();
         });
+        search.containerEl.addClass("better_inline_fields_setting");
       }).addExtraButton((button) => {
         button.setIcon("cross").setTooltip("Delete").onClick(() => {
           this.plugin.settings.autocomplete.splice(index, 1);
