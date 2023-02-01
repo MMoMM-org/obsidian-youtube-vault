@@ -2,5 +2,9 @@
   "accentColor": "",
   "cssTheme": "Minimal",
   "theme": "moonstone",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "own-supercharged-links",
+    "custom-buttons"
+  ]
 }

@@ -1,0 +1,77 @@
+{
+  "targetAttributes": [
+    "status",
+    "test"
+  ],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "attribute",
+      "name": "status",
+      "value": "call",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "1517-53ec",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "status",
+      "value": "recording",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "0d28-bbeb",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "status",
+      "value": "OK",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "2e34-3031",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "status",
+      "value": "failed",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "8331-bb4a",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "path",
+      "name": "status",
+      "value": "601 People",
+      "matchCaseSensitive": false,
+      "match": "contains",
+      "uid": "7edd-570c",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    }
+  ]
+}

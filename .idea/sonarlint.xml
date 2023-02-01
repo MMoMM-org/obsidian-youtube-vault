@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="fileExclusions">
+      <list>
+        <option value="DIRECTORY:Vaults" />
+        <option value="DIRECTORY:Vaults/Deutsch/.obsidian" />
+        <option value="DIRECTORY:Vaults/English/.obsidian" />
+        <option value="DIRECTORY:Vaults/Deutsch" />
+      </list>
+    </option>
+  </component>
+</project>

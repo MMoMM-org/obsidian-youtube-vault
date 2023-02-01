@@ -1,5 +1,9 @@
 {
   "accentColor": "",
   "cssTheme": "Minimal",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "supercharged-links-gen",
+    "own-supercharged-links",
+    "custom-buttons"
+  ]
 }

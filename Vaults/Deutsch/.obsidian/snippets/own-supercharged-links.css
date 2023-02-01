@@ -1,0 +1,4 @@
+.data-link-icon-after[data-link-status]:hover::after{
+    content: " ► "attr(data-link-status)
+}
+

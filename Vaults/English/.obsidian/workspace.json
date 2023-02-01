@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "94a8724b2fdae2a8",
+        "id": "e78c3d325bbc2c4e",
         "type": "tabs",
         "children": [
           {
-            "id": "adaba923381be6b3",
+            "id": "b88877e4521a2376",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "700 Playground/40-04 Todoist.md",
+                "file": "700 Playground/40-06 Buttons.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "700 Playground/40-04 Todoist.md",
+                "file": "700 Playground/40-06 Buttons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "700 Playground/40-04 Todoist.md",
+                "file": "700 Playground/40-06 Buttons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "700 Playground/40-04 Todoist.md"
+                "file": "700 Playground/40-06 Buttons.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -139,17 +139,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "adaba923381be6b3",
+  "active": "b88877e4521a2376",
   "lastOpenFiles": [
-    "700 Playground/40-03 The one where everything is better.md",
-    "700 Playground/40-04 Todoist.md",
-    "700 Playground/40-02 Useful Editing Helpers + Backup.md",
-    "200 Journaling/201 Daily/2022-10-30.md",
-    "700 Playground/Dynbedded.md",
-    "200 Journaling/201 Daily/2022-10-29.md",
-    "900 Support/951 Dataview Scripts/Inlinks.md",
-    "900 Support/940 Templates/Default Buttons.md",
-    "700 Playground/Embedded.md",
-    "300 Planner/DP-2022-10-30.md"
+    "Meeting-Split.md",
+    "Meeting.md",
+    "13_01.md",
+    "700 Playground/40-06 Buttons.md",
+    "700 Playground/40-06 Buttons-Dynbedded.md",
+    "13_41.md",
+    "600 Resources/601 People/@Tom.md",
+    "600 Resources/601 People/@Marry.md",
+    "700 Playground/Test.md",
+    "700 Playground/40-05 Supercharged Links.md"
   ]
 }

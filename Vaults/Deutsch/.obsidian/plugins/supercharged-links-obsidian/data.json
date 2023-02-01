@@ -1,0 +1,77 @@
+{
+  "targetAttributes": [
+    "status",
+    "test"
+  ],
+  "targetTags": true,
+  "getFromInlineField": true,
+  "enableTabHeader": true,
+  "activateSnippet": true,
+  "enableEditor": true,
+  "enableFileList": true,
+  "enableBacklinks": true,
+  "enableQuickSwitcher": true,
+  "enableSuggestor": true,
+  "selectors": [
+    {
+      "type": "path",
+      "name": "status",
+      "value": "601 Personen",
+      "matchCaseSensitive": false,
+      "match": "contains",
+      "uid": "b1ed-79f0",
+      "selectText": false,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "status",
+      "value": "anrufen",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "df00-1985",
+      "selectText": true,
+      "selectAppend": true,
+      "selectPrepend": true,
+      "selectBackground": true
+    },
+    {
+      "type": "tag",
+      "name": "status",
+      "value": "recording",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "0fb6-3486",
+      "selectText": true,
+      "selectAppend": false,
+      "selectPrepend": true,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "status",
+      "value": "Ok",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "d54b-984b",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": false,
+      "selectBackground": false
+    },
+    {
+      "type": "attribute",
+      "name": "status",
+      "value": "failed",
+      "matchCaseSensitive": false,
+      "match": "exact",
+      "uid": "e287-de65",
+      "selectText": false,
+      "selectAppend": true,
+      "selectPrepend": false,
+      "selectBackground": false
+    }
+  ]
+}
