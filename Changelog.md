@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/MMoMM-org/obsidian-youtube-vault/compare/1.5.0...1.6.0) (2023-02-01)
+
+
+### Features
+
+* 40-06 Buttons ([9bd6575](https://github.com/MMoMM-org/obsidian-youtube-vault/commit/9bd65756585cb9dc0443f5dde905be1626063c35))
+
 # [1.5.0](https://github.com/MMoMM-org/obsidian-youtube-vault/compare/1.4.0...1.5.0) (2022-12-14)
 
 
