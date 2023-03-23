@@ -2299,7 +2299,7 @@ var BetterInlineFieldsSettingTab = class extends import_obsidian3.PluginSettingT
 var import_obsidian4 = __toModule(require("obsidian"));
 var import_obsidian_dataview = __toModule(require_lib());
 var SEPARATOR = ";-;";
-var fieldValueRegexp = /(?:\[\[.*]])*,*\s*(.*)/;
+var fieldValueRegexp = /(\[\[.*]],?\s??)+(.*)/;
 var PagesEditSuggest = class extends import_obsidian4.EditorSuggest {
   constructor(app, plugin) {
     super(app);
@@ -2315,10 +2315,11 @@ var PagesEditSuggest = class extends import_obsidian4.EditorSuggest {
     const fields = this.plugin.settings.autocomplete.map((autocomplete) => autocomplete.field);
     for (const field of fields) {
       let fieldText = `${field}:: `;
-      let startIndex = editor.getRange({ line: cursor.line, ch: 0 }, cursor).indexOf(fieldText);
+      const text = editor.getRange({ line: cursor.line, ch: 0 }, cursor);
+      let startIndex = text.indexOf(fieldText);
       if (startIndex < 0) {
         fieldText = fieldText.slice(0, -1);
-        startIndex = editor.getRange({ line: cursor.line, ch: 0 }, cursor).indexOf(fieldText);
+        startIndex = text.indexOf(fieldText);
         if (startIndex < 0)
           continue;
       }
@@ -2346,14 +2347,15 @@ var PagesEditSuggest = class extends import_obsidian4.EditorSuggest {
     let query, startIndex;
     if (fieldValue.contains("[[")) {
       const match = fieldValue.match(fieldValueRegexp);
-      if (!match || match.length < 2)
+      if (!match || match.length < 3)
         return [];
-      query = match[1];
-      const withSpaceIndex = fieldValue.indexOf(`, ${query}`);
+      const preQuery = match[1].length;
+      query = match[2].trim();
+      const withSpaceIndex = preQuery + fieldValue.slice(preQuery).indexOf(` ${query}`);
       if (withSpaceIndex) {
-        startIndex = withSpaceIndex + 2;
+        startIndex = withSpaceIndex + 1;
       } else {
-        const withoutSpaceIndex = fieldValue.indexOf(`,${query}`);
+        const withoutSpaceIndex = preQuery + fieldValue.slice(preQuery).indexOf(`${query}`);
         if (withoutSpaceIndex) {
           startIndex = withSpaceIndex - 1;
         } else {
