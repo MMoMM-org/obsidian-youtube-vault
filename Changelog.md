@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/MMoMM-org/obsidian-youtube-vault/compare/1.6.0...1.7.0) (2023-03-23)
+
+
+### Features
+
+* 40-07 Readwise Official ([c745535](https://github.com/MMoMM-org/obsidian-youtube-vault/commit/c745535b62703a638112b1a09a3154d0a081e140))
+
 # [1.6.0](https://github.com/MMoMM-org/obsidian-youtube-vault/compare/1.5.0...1.6.0) (2023-02-01)
 
 
